@@ -31,7 +31,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-theme: jekyll-theme-prologue
+remote_theme: slightlyopaque/jekyll-theme-prologue
 
 collections: [sections]
 
