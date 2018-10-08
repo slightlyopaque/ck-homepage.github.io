@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Caroline Kikisch
-subtitle: systemische Coach & Mediatorin
+subtitle: Systemisches Coaching & Mediation
 author: Caroline Kikisch
 description: >- # this means to ignore newlines until "baseurl:"
-  Caroline Kikisch ist systemische Coach & Mediatorin
+  Caroline Kikisch ist systemische Beraterin, Coach, Supervisorin und Mediatorin
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.caroline-kikisch.de" # the base hostname & protocol for your site, e.g. http://example.com
 
 avatar: assets/images/avatar.png
-email: caroline@caroline-kikisch.de
+email: beratung@caroline-kikisch.de
 xing_url: https://www.xing.com/profile/Caroline_Kikisch
 linkedin_url: https://de.linkedin.com/in/carolinekikisch
 
