@@ -31,6 +31,14 @@
   <li><a href="{{- site.xing_url -}}" class="icon-b fa-xing"><span class="label">XING</span></a></li>
   {%- endif -%}
   {%- if site.email -%}
-  <li><a href="mailto:{{- site.email -}}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+  <li>
+    <script language="JavaScript">
+      {% assign splitted_email = site.email | split: '@' %}
+      var user = "{{- splitted_email[0] -}}";
+      var host = "{{- splitted_email[1] -}}";
+      var linktext = "<span class=\"label\">Email</span>" ;
+      document.write("<a class=\"icon fa-envelope\" href='" + "mail" + "to:" + user + "@" + host + "'>" + linktext + "</a>");
+    </script>
+  </li>
   {%- endif -%}
 </ul>
