@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Herausforderungen in der Zusammenarbeit von Internen und Externen"
-author: Caroline Kikischdate: 2018-10-22 10:00 +0100
+author: Caroline Kikisch
+date: 2018-10-22 10:00 +0100
 image: /images/blog/TA2.png
 categories: arbeit
 ---
